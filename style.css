@@ -1,0 +1,33 @@
+.rectangle{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: royalblue;
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+
+.hide{
+    display: none;
+}
+
+.important{
+    background-color: pink;
+    transition-duration: 1s;
+}
+
+.retireSouris{
+    background-color: lightgreen;
+    transition-duration: 1s;
+}
+
+.doubleClick{
+    background-color: crimson;
+    transition-duration: 1s;
+}
+
+/* .good{
+    background-color: coral;
+    transition-duration: 1s;
+} */
+

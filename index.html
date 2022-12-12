@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évènement</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gestion de la souris</h1>
+    
+    <button id="toggle-rectangle">
+        Cacher / Afficher le rectangle
+    </button>
+    <div class="rectangle"></div>
+
+    <p>
+        - Quand on clique sur le bouton *toggle-rectangle*, cela cache ou affiche le rectangle.
+
+    </p>
+    <p>
+        - Quand la souris se déplace à l'intérieur du rectangle il devient rouge; il reprend sa couleur originale quand la souris n'est plus dedans.
+    </p>
+    <p>
+        - Quand on double-clique sur le rectangle il devient vert.
+    </p>
+    
+    <h2>Comprendre la propagation d'evenement</h2>
+    <p id="para">Un paragraphe avec un <button id="propa">bouton</button> à l'intérieur</p>
+
+    <h2>Modifier le comportement par défaut en cas d'evenement</h2>
+    <p>
+        Du temps à perdre ? 
+        <a id="interdit" href="https://9gag.com">
+            Cliquez-ici
+        </a>
+    </p>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
